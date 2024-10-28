@@ -3,6 +3,7 @@
 @import url(contents_CSS/content-inicio.css);
 @import url(contents_CSS/content-chefs.css);
 @import url(contents_CSS/best_burguer.css);
+@import url(contents_CSS/statistics.css);
 *{
   margin: 0;
   padding: 0;

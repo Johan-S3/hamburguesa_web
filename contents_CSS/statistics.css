@@ -1,0 +1,56 @@
+.content-statistics{
+  background-color: var(--colorSecundario);
+  justify-items: center;
+  color: var(--colorFuente);
+  padding: 60px;
+}
+
+.content-statistics__titulo{
+  /* font-size: 90px; */
+  font-size: 4.6vw;
+
+  font-weight: 600;
+}
+
+.content-statistics__parrafo{
+  display: inline-block;
+  width: 850px;
+  text-align: center;
+  margin: 60px 0;
+  /* font-size: 25px; */
+  font-size: 1.3vw;
+
+}
+
+.content-statistics__info{
+  display: flex;
+  width: 1350px;
+  width: 65.1vw;
+  justify-content: space-around;
+}
+
+.content-statistics__item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* width: 350px; */
+  /* height: 350px; */
+  width: 18.2vw;
+  height: 18.2vw;
+  border: solid 6px var(--colorFuente);
+  border-radius: 50%;
+  line-height: 4.1vw;
+}
+
+.content-statistics__numero{
+  /* font-size: 120px; */
+  font-size: 6.2vw;
+  font-weight: 600;
+}
+
+.content-statistics__palabra{
+  /* font-size: 40px; */
+  font-size: 2.0vw;
+
+}
