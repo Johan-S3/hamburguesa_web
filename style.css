@@ -11,10 +11,10 @@
 }
 
 .body{
-  width: calc(100vw - scroll) ;
+  min-width: calc(100vw - scroll) ;
 }
 .main{
-  width: 100%;
+  min-width: 100%;
 }
 .content{
   width: 100%;
