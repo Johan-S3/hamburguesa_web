@@ -2,4 +2,9 @@
   --colorPrincipal: #f6eedf;
   --colorSecundario: #f64b3c;
   --colorFuente: #fff;
+
+  /*----------------BEST-BURGUER-----------*/
+  --tamaño_img:28.6vw;
+  --tamaño_title:5.2vw;
+  --tamaño_text:2.0vw;
 }
