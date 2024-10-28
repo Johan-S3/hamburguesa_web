@@ -59,11 +59,12 @@
 @media(width < 800px){
   .content-best_burger{
     grid-template-columns: 1fr;
+    gap: 0;
   }
 
 .bestBurguer__img{
-    width: 60vw;
-    height: 60vw;
+    width: 380px;
+    height: 380px;
   }
   
   .bestBurguer-info{
