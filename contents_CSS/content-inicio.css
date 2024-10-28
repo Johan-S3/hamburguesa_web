@@ -84,6 +84,7 @@
   }
   .header__link-content{
     font-size: 17px;
+    display: none;
   }
   .content-inicio__information{
     margin-top: 100px;
