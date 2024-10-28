@@ -50,6 +50,10 @@
   background-color: var(--colorFuente);
   border-radius: 50px;
   font-weight: 600;
+  transition: 0.3s;
+}
+.bestBurguer__button:hover{
+  filter: drop-shadow(0 0 15px var(--colorFuente));
 }
 
 @media(width < 770px){
@@ -61,8 +65,21 @@
     width: 60vw;
     height: 60vw;
   }
-
+  
   .bestBurguer-info{
-      align-self: start;
+    align-self: start;
+    text-align: center;
+  }
+  .bestBurguer__title{
+    font-size: 39px;
+  }
+  .bestBurguer__text{
+    margin: 0;
+    padding: 30px ;
+    font-size: 17px;
+  }
+  .bestBurguer__button{
+    font-size: 17px;
+    padding: 10px 35px;
   }
 }

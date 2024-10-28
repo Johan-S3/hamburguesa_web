@@ -16,40 +16,40 @@
   right: 0;
 }
 .content-chefs__title{
-  font-size: 60px;
+  /* font-size: 60px; */
   font-size: 3.1vw;
   font-weight: 600;
-  padding-top: 90px;
+  /* padding-top: 90px; */
   padding-top: 9.5vh;
 }
 .content-chefs__text{
   display: inline-block;
-  width: 750px;
+  /* width: 750px; */
   width: 39vw;
-  font-size: 25px;
+  /* font-size: 25px; */
   font-size: 1.3vw;
   font-weight: 300;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   margin-top: 2.1vh;
 }
 .content-chefs__information{
-  margin: 50px 180px;
+  /* margin: 50px 180px; */
   margin: 5.2vh 6.2vw;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1vw;
 }
 .content-chefs__image{
-  width: 270px;
+  /* width: 270px; */
   width: 14vw;
 }
 .content-chefs__name{
-  font-size: 36px;
+  /* font-size: 36px; */
   font-size: 1.8vw;
   font-weight: 600;
 }
 .content-chefs__post{
-  font-size: 25px;
+  /* font-size: 25px; */
   font-size: 1.3vw;
 }
 
@@ -57,5 +57,22 @@
   .content-chefs__information{
     grid-template-columns: 1fr;
     grid-auto-rows: 3;
+  }
+  .content-chefs__title{
+    padding-top: 40px;
+    font-size: 39px;
+  }
+  .content-chefs__text{
+    font-size: 20px;
+    width: 85%;
+  }
+  .content-chefs__image{
+    width: 150px;
+  }
+  .content-chefs__name{
+    font-size: 15px;
+  }
+  .content-chefs__post{
+    font-size: 12px;
   }
 }
