@@ -56,7 +56,7 @@
   filter: drop-shadow(0 0 15px var(--colorFuente));
 }
 
-@media(width < 770px){
+@media(width < 800px){
   .content-best_burger{
     grid-template-columns: 1fr;
   }
