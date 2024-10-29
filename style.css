@@ -4,6 +4,7 @@
 @import url(contents_CSS/content-chefs.css);
 @import url(contents_CSS/best_burger.css);
 @import url(contents_CSS/big_burger.css);
+@import url(contents_CSS/statistics.css);
 *{
   margin: 0;
   padding: 0;
