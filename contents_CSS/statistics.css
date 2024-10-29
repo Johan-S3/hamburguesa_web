@@ -1,8 +1,11 @@
 .content-statistics{
+  display: flex;
+  flex-direction: column;
   background-color: var(--colorSecundario);
-  justify-items: center;
+align-items: center;
   color: var(--colorFuente);
   padding: 60px;
+
 }
 
 .content-statistics__titulo{
@@ -53,4 +56,16 @@
   /* font-size: 40px; */
   font-size: 2.0vw;
 
+}
+
+@media(width<800px){
+  .content-statistics__info{
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .content-statistics__parrafo{
+    margin: 15px 0;
+  }
 }
