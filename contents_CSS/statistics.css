@@ -60,11 +60,11 @@
 
 @media(width<800px){
   .content-statistics__titulo{
-    font-size: 30px;
+    font-size: 32px;
   }
   .content-statistics__parrafo{
     width: 90%;
-    font-size: 12px;
+    font-size: 15px;
   }
   .content-statistics__info{
     flex-direction: column;
@@ -73,15 +73,16 @@
   }
   .content-statistics__item{
     border: solid 4px var(--colorFuente);
-    width: 120px;
-    height: 120px;
-    line-height: 22px;
+    width: 150px;
+    height: 150px;
+    line-height: 28px;
+    text-align: center;
   }
   .content-statistics__palabra{
-    font-size: 15px;
+    font-size: 17px;
   }
   .content-statistics__numero{
-    font-size: 30px;
+    font-size: 40px;
   }
 
   .content-statistics__parrafo{
