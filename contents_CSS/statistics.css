@@ -73,15 +73,15 @@
   }
   .content-statistics__item{
     border: solid 4px var(--colorFuente);
-    width: 100px;
-    height: 100px;
-    line-height: 18px;
+    width: 120px;
+    height: 120px;
+    line-height: 22px;
   }
   .content-statistics__palabra{
-    font-size: 12px;
+    font-size: 15px;
   }
   .content-statistics__numero{
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .content-statistics__parrafo{
