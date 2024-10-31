@@ -63,8 +63,8 @@
   }
 
   .content-best_burger__img{
-    width: 350px;
-    height: 350px;
+    width: 95%;
+    height: auto;
   }
   
   .bestBurguer-info{
