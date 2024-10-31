@@ -8,7 +8,7 @@
   color: var(--colorSecundario);
 }
 /* Aquí tambien estoy aplicando estilos al fondo de la big nurger view */
-.content-chefs__fondo, .content-big_burger__fondo{ 
+.content-chefs__fondo, .content-big_burger__fondo, .content-popular_package__fondo{ 
   position: absolute;
   z-index: 0;
   width: 100%;

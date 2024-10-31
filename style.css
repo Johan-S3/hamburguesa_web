@@ -8,6 +8,7 @@
 @import url(contents_CSS/statistics.css);
 @import url(contents_CSS/mensaje.css);
 @import url(contents_CSS/input.css);
+@import url(contents_CSS/popular-package.css);
 *{
   margin: 0;
   padding: 0;
