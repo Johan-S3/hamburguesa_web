@@ -26,6 +26,7 @@
 }
 .content-chefs__information{
   margin: 5.2vh 6.2vw;
+  margin-bottom: 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1vw;
