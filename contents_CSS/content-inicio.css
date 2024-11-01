@@ -25,9 +25,14 @@
   gap: 5.1vw;
   font-size: 1.6vw;
 }
-.header__link-content--oculto{
+.header__link-content--oculto, .header__link-content--menu{
   display: none;
 }
+.header__menu{
+  width: 0;
+  position: absolute;
+}
+
 .header__link, .header__link-content--oculto{
   color: var(--colorFuente);
   text-decoration: none;
@@ -87,9 +92,23 @@
     display: none;
   }
   .header__link-content--oculto{
-    display: inline-block;
+    display: block;
     font-size: 23px;
     cursor: pointer;
+  }
+
+  .header__menu:checked~.header__link-content--menu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: end;
+    top: 11%;
+    right: 10%;
+    font-size: 90%;
+    width: 30%;
+    box-shadow: inset -70px 30px 35px var(--colorMenu);;
+    padding-right: 5%;
+    border-radius: 5px;
   }
   .content-inicio__information{
     margin-top: 25px;
