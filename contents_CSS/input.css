@@ -1,12 +1,10 @@
 
 .content-subscription{
     background-color: var(--colorPrincipal);
-    width: 100%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: var(--justifyX);
+    align-items: var(--alignY);
     color: var(--colorSecundario);
 }
 
@@ -18,29 +16,24 @@
     object-fit: cover;
 }
 .content-subscription__titulo{
-    /* font-size: 70px; */
     font-size: 5.2vw;
-    font-weight: 600;
+    font-weight: var(--mayorGrosor);
 }
 
 .content-subscription__parrafo{
     width: 51%;
-    text-align: center;
-    /* font-size: 26px; */
+    text-align: var(--alignY);
     font-size: 1.9vw;
-    /* line-height: 32px; */
     line-height: 2.4vw;
-    /* margin: 40px 0; */
     margin: 3vw 0;
     font-weight: 400;
 }
 
 .content-subscription__suscribirse{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: var(--alignY);
+    justify-content: var(--justifyX);
     width: 50%;
-    /* height: 60px; */
     height: 4.5vw;
     position: relative;
     z-index: 1;
@@ -50,11 +43,8 @@
     width: 100%;
     height: 100%;
     border: none;
-    /* padding-left: 30px; */
     padding-left: 2.2vw;
-    /* border-radius: 30px 0 0 30px; */
-    border-radius: 2.2vw 0 0 2.2vw;
-    /* font-size: 21px; */
+    border-radius: var(--cornerButtons) 0 0 var(--cornerButtons);
     font-size: 1.5vw;
     outline: none;
 
@@ -67,15 +57,13 @@
     border: none;
     background-color: var(--colorSecundario);
     color: var(--colorFuente);
-    /* font-size: 21px; */
     font-size: 1.5vw;
-    /* border-radius:0 30px 30px 0 ; */
-    border-radius:0 2.2vw 2.2vw 0 ;
+    border-radius:0 var(--cornerButtons) var(--cornerButtons) 0 ;
     cursor: pointer;
+    transition: var(--timeTransition);
 }
 
 .content-subscription__boton:hover{
-    /* filter: drop-shadow(0 0 15px var(--colorSecundario)); */
     filter: drop-shadow(0 0 1.1vw var(--colorSecundario));
 }
 
@@ -98,15 +86,15 @@
 
     .content-subscription__input{
         height: 40px;
-        text-align: center;
-        border-radius: 30px;
+        text-align: var(--alignY);
+        border-radius: var(--cornerButtons);
         font-size: 15px;
     
 
     }
     .content-subscription__boton{
         height: 40px;
-        border-radius: 30px;
+        border-radius: var(--cornerButtons);
         font-size: 15px;
         font-weight: 500;
         width: 40%;

@@ -1,56 +1,45 @@
 .content-best_burger{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-area: 'bestBurguer__img content-best_burger__img';
   background-color: var(--colorSecundario);
-  align-items: center;
-  justify-items: center;
-  /* padding: 0 130px; */
+  align-items: var(--alignY);
+  justify-items: var(--justifyX);
   padding: 0 6.7vw;
   gap: 30px;
 }
 
 .bestBurguer-info{
-  grid-area: "bestBurguer-info";
   color: var(--colorFuente);
 }
 
 .content-best_burger__img{
-  grid-area: "bestBurguer__img";
-  /* height: 550px; */
-  /* width: 550px; */
-
   height: var(--tamaño_img);
   width: var(--tamaño_img);
 }
 
 .bestBurguer-info__title{
-  /* font-size: 100px; */
   font-size: var(--tamaño_title);
 
 }
 
 .bestBurguer-info__text{
-  /* font-size: 40px; */
   font-size: var(--tamaño_text);
   font-weight: 300;
-  /* margin: 70px 0px; */
   margin: 7.4vh 0px;
 
 }
 
 .bestBurguer-info__button{
   text-decoration: none;
-  /* font-size: 40px; */
   font-size: var(--tamaño_text);
   white-space: nowrap;
 
   padding: 0.5vw 4.8vw;
   color: var(--colorSecundario);
   background-color: var(--colorFuente);
-  border-radius: 50px;
-  font-weight: 600;
-  transition: 0.3s;
+  border-radius: var(--cornerButtons);
+  font-weight: var(--mayorGrosor);
+  transition: var(--timeTransition);
 }
 .bestBurguer-info__button:hover{
   filter: drop-shadow(0 0 15px var(--colorFuente));
@@ -63,13 +52,13 @@
   }
 
   .content-best_burger__img{
-    width: 95%;
+    width: var(--tamañoImgMediaQ);
     height: auto;
   }
   
   .bestBurguer-info{
     align-self: start;
-    text-align: center;
+    text-align: var(--alignY);
   }
   .bestBurguer-info__title{
     font-size: 39px;

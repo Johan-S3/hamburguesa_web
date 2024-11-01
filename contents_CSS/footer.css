@@ -19,7 +19,7 @@
     flex-direction: column;
 }
 .content-footer__title{
-    font-weight: 600;
+    font-weight: var(--mayorGrosor);
     font-size: 1.7vw;
     padding-bottom: 7%;
 }
@@ -43,8 +43,8 @@
     height: 2.5vw;
     border-radius: 50%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: var(--alignY);
+    justify-content: var(--justifyX);
     font-size: 1.7vw;
 }
 

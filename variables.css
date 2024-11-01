@@ -3,9 +3,22 @@
   --colorSecundario: #f64b3c;
   --colorFuente: #fff;
   --colorFooter: #222222;
+  --colorSombra: Black;
+
+  --mayorGrosor: 600;
+  --cornerButtons: 50px;
+
+  --alignY: center;
+  --justifyX: center;
+
+  --timeTransition: 0.3s;
 
   /*----------------BEST-BURGER and BIG-BURGER-----------*/
   --tamaño_img:28.6vw;
+  --tamañoImgMediaQ: 95%;
   --tamaño_title:5.2vw;
   --tamaño_text:2.0vw;
+
+  --tamañoTitleMediaQ: 39px;
+  --tamañoTextMediaQ: 17px;
 }
