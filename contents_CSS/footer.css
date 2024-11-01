@@ -1,0 +1,84 @@
+.content-footer{
+    background-color: var(--colorFooter);
+}
+
+.content-footer__information{
+    display: grid;
+    grid-template-columns: 40% 1fr 1fr 1fr;
+    padding-top: 10%;
+    color: var(--colorFuente);
+    width: 85%;
+    margin: 0 auto;
+    gap: 5%;
+}
+.content-footer__principal{
+    padding-right: 20%;
+}
+.content-footer__principal, .content-footer__about, .content-footer__about, .content-footer__services, .content-footer__other{
+    display: flex;
+    flex-direction: column;
+}
+.content-footer__title{
+    font-weight: 600;
+    font-size: 1.7vw;
+    padding-bottom: 7%;
+}
+.content-footer__text{
+    font-size: 1.2vw;
+    font-weight: 300;
+    padding-bottom: 7%;
+    cursor: pointer;
+}
+
+.content-footer__iconos{
+    display: flex;
+    gap: 3%;
+}
+
+.content-footer__icon{
+    background-color: var(--colorFuente);
+    color: var(--colorFooter);
+    text-decoration: none;
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7vw;
+}
+
+@media(width < 800px){
+    .content-footer__information{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "principal principal"
+        "about services"
+        "other .";
+    }
+    .content-footer__principal{
+        grid-area: principal;
+    }
+    .content-footer__about{
+        grid-area: about;
+    }
+    .content-footer__services{
+        grid-area: services;
+    }
+    .content-footer__other{
+        grid-area: other;
+    }
+
+    .content-footer__title{
+        font-size: 130%;
+    }
+    .content-footer__text{
+        font-size: 80%;
+    }
+    .content-footer__icon{
+        width: 8vw;
+        height: 8vw;
+        font-size: 120%;
+    }
+    
+}
