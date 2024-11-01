@@ -23,8 +23,13 @@
 .main{
   min-width: 100%;
 }
+html{
+
+  scroll-behavior: smooth;
+}
 .content{
   width: 100%;
   min-height: 100vh;
   height: auto;
 }
+
